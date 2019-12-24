@@ -1,0 +1,7 @@
+electron - yarn expo-electron start
+
+web - expo start --web [http://localhost:19006]
+
+mobile - expo start [download expo app to your mobile and scan the QR code from the expo cli]
+
+more info at: https://docs.expo.io/versions/latest/guides/using-electron/#-setup
