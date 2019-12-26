@@ -1,11 +1,13 @@
 import React from 'react';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
+import Home from './src/Home';
 import Vehicles from './src/Vehicles';
 
 const navigator = createStackNavigator(
     {
-        Home: Vehicles
+        Home: Home,
+        Vehicles: Vehicles
     },
     {
       initialRouteName: 'Home',
