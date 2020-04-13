@@ -1,3 +1,7 @@
+install expo
+
+install yarn
+
 electron - yarn expo-electron start
 
 web - expo start --web [http://localhost:19006]
